@@ -22,6 +22,10 @@
 		567EB07B1F738BBA000ED92E /* AppForLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567EB07A1F738BBA000ED92E /* AppForLearnUITests.swift */; };
 		567EB08C1F738EC7000ED92E /* RootTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567EB08B1F738EC7000ED92E /* RootTVC.swift */; };
 		567EB0901F739220000ED92E /* PushNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567EB08F1F739220000ED92E /* PushNotificationVC.swift */; };
+		56CD82231FC407E0006CA0FE /* favourite_app_icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 56CD82221FC407CB006CA0FE /* favourite_app_icon.json */; };
+		56CD82251FC40E42006CA0FE /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD82241FC40E42006CA0FE /* AnimationVC.swift */; };
+		56CD82281FC414A8006CA0FE /* transition_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 56CD82261FC4149D006CA0FE /* transition_1.json */; };
+		56CD82291FC414AB006CA0FE /* transition_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 56CD82271FC414A1006CA0FE /* transition_2.json */; };
 		56EAA2B11F7A8D6B00095D17 /* MapKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAA2B01F7A8D6B00095D17 /* MapKitVC.swift */; };
 		56EAA2B31F7B382900095D17 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EAA2B21F7B382900095D17 /* MapKit.framework */; };
 		85A6FC205FE5E662AEA7CAC9 /* Pods_AppForLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484FB4F0CBFDE29993A648E /* Pods_AppForLearnTests.framework */; };
@@ -73,6 +77,10 @@
 		567EB07C1F738BBA000ED92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		567EB08B1F738EC7000ED92E /* RootTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTVC.swift; sourceTree = "<group>"; };
 		567EB08F1F739220000ED92E /* PushNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationVC.swift; sourceTree = "<group>"; };
+		56CD82221FC407CB006CA0FE /* favourite_app_icon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = favourite_app_icon.json; sourceTree = "<group>"; };
+		56CD82241FC40E42006CA0FE /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
+		56CD82261FC4149D006CA0FE /* transition_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transition_1.json; sourceTree = "<group>"; };
+		56CD82271FC414A1006CA0FE /* transition_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transition_2.json; sourceTree = "<group>"; };
 		56EAA2B01F7A8D6B00095D17 /* MapKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitVC.swift; sourceTree = "<group>"; };
 		56EAA2B21F7B382900095D17 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6E5B5D7370126F0EA0281421 /* Pods_AppForLearnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppForLearnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +152,10 @@
 		563FCDCF1F74A0E600D6854B /* lottieRes */ = {
 			isa = PBXGroup;
 			children = (
+				56CD82221FC407CB006CA0FE /* favourite_app_icon.json */,
+				563FCDD01F74A10C00D6854B /* heartParticles.json */,
+				56CD82261FC4149D006CA0FE /* transition_1.json */,
+				56CD82271FC414A1006CA0FE /* transition_2.json */,
 			);
 			name = lottieRes;
 			sourceTree = "<group>";
@@ -169,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				563FCDCA1F749FDE00D6854B /* LottieVC.swift */,
+				56CD82241FC40E42006CA0FE /* AnimationVC.swift */,
 			);
 			name = lottie;
 			sourceTree = "<group>";
@@ -198,7 +211,6 @@
 		567EB0591F738BBA000ED92E /* AppForLearn */ = {
 			isa = PBXGroup;
 			children = (
-				563FCDD01F74A10C00D6854B /* heartParticles.json */,
 				563FCDC41F73B62800D6854B /* AppForLearn.entitlements */,
 				567EB05A1F738BBA000ED92E /* AppDelegate.swift */,
 				567EB05C1F738BBA000ED92E /* ViewController.swift */,
@@ -387,8 +399,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CD82231FC407E0006CA0FE /* favourite_app_icon.json in Resources */,
+				56CD82291FC414AB006CA0FE /* transition_2.json in Resources */,
 				567EB0651F738BBA000ED92E /* LaunchScreen.storyboard in Resources */,
 				567EB0621F738BBA000ED92E /* Assets.xcassets in Resources */,
+				56CD82281FC414A8006CA0FE /* transition_1.json in Resources */,
 				567EB0601F738BBA000ED92E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +569,7 @@
 			files = (
 				56EAA2B11F7A8D6B00095D17 /* MapKitVC.swift in Sources */,
 				563FCDD11F74AEAB00D6854B /* heartParticles.json in Sources */,
+				56CD82251FC40E42006CA0FE /* AnimationVC.swift in Sources */,
 				567EB05D1F738BBA000ED92E /* ViewController.swift in Sources */,
 				567EB08C1F738EC7000ED92E /* RootTVC.swift in Sources */,
 				567EB05B1F738BBA000ED92E /* AppDelegate.swift in Sources */,

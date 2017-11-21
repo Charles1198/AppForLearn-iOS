@@ -94,13 +94,63 @@
                     <view key="view" contentMode="scaleToFill" id="xWd-5f-KqN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9d-VJ-xig">
+                                <rect key="frame" x="156" y="449" width="62" height="30"/>
+                                <state key="normal" title="转场动画"/>
+                                <connections>
+                                    <action selector="transitionAnim:" destination="TDJ-vv-IUY" eventType="touchUpInside" id="1Jq-kY-s4L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E61-8G-9hk">
+                                <rect key="frame" x="156" y="411" width="62" height="30"/>
+                                <state key="normal" title="普通动画"/>
+                                <connections>
+                                    <action selector="normalAnim:" destination="TDJ-vv-IUY" eventType="touchUpInside" id="4eC-8c-CwT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g9d-VJ-xig" firstAttribute="top" secondItem="E61-8G-9hk" secondAttribute="bottom" constant="8" id="1Nb-Dd-f6L"/>
+                            <constraint firstItem="g9d-VJ-xig" firstAttribute="centerX" secondItem="xWd-5f-KqN" secondAttribute="centerX" id="cMf-yd-hSO"/>
+                            <constraint firstItem="nYl-qZ-xGD" firstAttribute="bottom" secondItem="g9d-VJ-xig" secondAttribute="bottom" constant="188" id="hWT-Ci-3Q0"/>
+                            <constraint firstItem="E61-8G-9hk" firstAttribute="centerX" secondItem="xWd-5f-KqN" secondAttribute="centerX" id="wkJ-wi-bk6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nYl-qZ-xGD"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQh-Hr-flt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="724" y="824"/>
+        </scene>
+        <!--AnimationVC-->
+        <scene sceneID="uvV-z2-mqx">
+            <objects>
+                <viewController storyboardIdentifier="Animation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fTp-CN-NVQ" customClass="AnimationVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9iw-Ho-4Um">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehl-U0-B6x">
+                                <rect key="frame" x="172" y="449" width="31" height="30"/>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="back:" destination="fTp-CN-NVQ" eventType="touchUpInside" id="vgH-Se-uj3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ehl-U0-B6x" firstAttribute="centerX" secondItem="9iw-Ho-4Um" secondAttribute="centerX" id="28J-S0-9m3"/>
+                            <constraint firstItem="GRk-h0-KX8" firstAttribute="bottom" secondItem="ehl-U0-B6x" secondAttribute="bottom" constant="188" id="QvB-w6-IJk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GRk-h0-KX8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8bw-GS-KED" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="722" y="1483"/>
         </scene>
         <!--Map KitVC-->
         <scene sceneID="NZm-oY-dS0">

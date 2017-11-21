@@ -14,17 +14,14 @@ class RootTVC: UITableViewController {
     
     let headTitles = ["iOS基础", "第三方库"]
     let cellTitlesOriginalFunction = ["推送通知", "地图", "WKWebView 与 UITableView"]
-    let cellTitlesLibraries = ["Lottie 特效动画"]
+    let cellTitlesLibraries = ["Lottie 动画"]
+    let identifierOriginalFunction = ["PushNotification", "MapKit", "WKWebVIewAndUITableView"]
+    let identifierLibraries = ["Lottie"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-//         self.navigationItem.rightBarButtonItem = self.editButtonItem
-        
+        self.navigationItem.title = "AppForLearn"
         rootTableView.delegate = self
         rootTableView.dataSource = self
     }
@@ -61,53 +58,22 @@ class RootTVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let sb = UIStoryboard.init(name: "Main", bundle: nil)
+        var vc = UIViewController()
         switch indexPath.section {
         case 0:
-            jumpToFunctions(indexPath.row)
+            vc = sb.instantiateViewController(withIdentifier: identifierOriginalFunction[indexPath.row])
         case 1:
-            jumpToLibraries(indexPath.row)
+            vc = sb.instantiateViewController(withIdentifier: identifierLibraries[indexPath.row])
         default:
             return
         }
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return headTitles[section]
     }
-    
-    // MARK: - 页面跳转
-    
-    
-    /// iOS基础
-    func jumpToFunctions(_ index: Int) {
-        let sb = UIStoryboard.init(name: "Main", bundle: nil)
-        var vc = UIViewController()
-        switch index {
-        case 0:
-            vc = sb.instantiateViewController(withIdentifier: "PushNotification")
-        case 1:
-            vc = sb.instantiateViewController(withIdentifier: "MapKit")
-        case 2:
-            vc = sb.instantiateViewController(withIdentifier: "WKWebVIewAndUITableView")
-        default:
-            return
-        }
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
-    
-    /// 第三方库
-    func jumpToLibraries(_ index: Int) {
-        let sb = UIStoryboard.init(name: "Main", bundle: nil)
-        var vc = UIViewController()
-        switch index {
-        case 0:
-            vc = sb.instantiateViewController(withIdentifier: "Lottie")
-        default:
-            return
-        }
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
-    
 
     /*
     // Override to support conditional editing of the table view.
