@@ -27,7 +27,7 @@
         <!--Root View Controller-->
         <scene sceneID="Cr7-nK-noi">
             <objects>
-                <tableViewController id="vVe-2l-nOj" customClass="RootTVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="vVe-2l-nOj" customClass="RootVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xjC-2j-pCr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,6 +225,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9VY-FF-V4X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2176.8000000000002" y="817.24137931034488"/>
+        </scene>
+        <!--SensorVC-->
+        <scene sceneID="myh-RT-Rgu">
+            <objects>
+                <viewController storyboardIdentifier="Sensor" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xyH-Yp-p01" customClass="SensorVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y4n-Y7-Dk3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oi9-Gn-EeR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oi9-Gn-EeR" firstAttribute="leading" secondItem="5bP-Or-yfR" secondAttribute="leading" id="RGB-ml-Vb5"/>
+                            <constraint firstItem="oi9-Gn-EeR" firstAttribute="trailing" secondItem="5bP-Or-yfR" secondAttribute="trailing" id="cwm-Ih-pJ1"/>
+                            <constraint firstItem="oi9-Gn-EeR" firstAttribute="top" secondItem="Y4n-Y7-Dk3" secondAttribute="top" id="otg-cV-GGt"/>
+                            <constraint firstItem="oi9-Gn-EeR" firstAttribute="bottom" secondItem="5bP-Or-yfR" secondAttribute="bottom" id="qhC-h2-esh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5bP-Or-yfR"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="oi9-Gn-EeR" id="9E8-px-7pc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vSi-wn-pdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2909.5999999999999" y="815.44227886056979"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WdS-sL-YmP">

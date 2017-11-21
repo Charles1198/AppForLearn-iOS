@@ -8,14 +8,14 @@
 
 import UIKit
 
-class RootTVC: UITableViewController {
+class RootVC: UITableViewController {
    
     @IBOutlet var rootTableView: UITableView!
     
     let headTitles = ["iOS基础", "第三方库"]
-    let cellTitlesOriginalFunction = ["推送通知", "地图", "WKWebView 与 UITableView"]
+    let cellTitlesOriginalFunction = ["推送通知", "地图", "WKWebView 与 UITableView", "传感器"]
     let cellTitlesLibraries = ["Lottie 动画"]
-    let identifierOriginalFunction = ["PushNotification", "MapKit", "WKWebVIewAndUITableView"]
+    let identifierOriginalFunction = ["PushNotification", "MapKit", "WKWebVIewAndUITableView", "Sensor"]
     let identifierLibraries = ["Lottie"]
     
     override func viewDidLoad() {
