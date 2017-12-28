@@ -45,5 +45,9 @@
 	<string>我想使用您的地理位置</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>我想使用您的地理位置</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>iconfont.ttf</string>
+	</array>
 </dict>
 </plist>

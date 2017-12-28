@@ -61,7 +61,15 @@ class SensorVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+//        let sb = UIStoryboard.init(name: "Main", bundle: nil)
+//        switch indexPath.row {
+//        case 1:
+//            let ballGameVC = sb.instantiateViewController(withIdentifier: "ballGame")
+//            self.navigationController?.pushViewController(ballGameVC, animated: true)
+//            break
+//        default:
+//            break
+//        }
     }
     
     // MARK: - 磁力计

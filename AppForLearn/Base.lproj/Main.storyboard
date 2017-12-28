@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JXw-u9-xeA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JXw-u9-xeA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -255,6 +255,72 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vSi-wn-pdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2909.5999999999999" y="815.44227886056979"/>
+        </scene>
+        <!--Ball GameVC-->
+        <scene sceneID="oiW-Zu-eEb">
+            <objects>
+                <viewController storyboardIdentifier="ballGame" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0u1-Cx-m9m" customClass="BallGameVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bLE-1i-mXe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="mIi-OK-ffU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZSK-6u-d4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2910" y="1473"/>
+        </scene>
+        <!--Ka TexVC-->
+        <scene sceneID="UwM-AC-IAB">
+            <objects>
+                <viewController storyboardIdentifier="KaTex" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ThM-kX-ZkO" customClass="KaTexVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3OL-bV-rGU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljx-yr-h0C">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="181" id="b1n-zx-yn5"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ljx-yr-h0C" firstAttribute="leading" secondItem="2YD-n1-o8d" secondAttribute="leading" id="Rqq-dw-aLy"/>
+                            <constraint firstItem="ljx-yr-h0C" firstAttribute="top" secondItem="3OL-bV-rGU" secondAttribute="top" id="SoY-3p-cs1"/>
+                            <constraint firstItem="ljx-yr-h0C" firstAttribute="trailing" secondItem="2YD-n1-o8d" secondAttribute="trailing" id="e3c-Dg-w4T"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2YD-n1-o8d"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="ljx-yr-h0C" id="j8X-aa-eR6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nkg-5J-Df8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3581.5999999999999" y="814.54272863568224"/>
+        </scene>
+        <!--IconfontVC-->
+        <scene sceneID="QBm-mz-U5q">
+            <objects>
+                <viewController storyboardIdentifier="iconfont" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Dc7-de-Pwg" customClass="IconfontVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Zw-X0-grH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="p1m-37-w3g"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDW-yf-fTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4274" y="811"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WdS-sL-YmP">

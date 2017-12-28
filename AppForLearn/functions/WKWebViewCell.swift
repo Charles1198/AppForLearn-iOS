@@ -11,12 +11,18 @@ import WebKit
 import SnapKit
 
 protocol WebViewCellHeightDelegate:class {
+    
+    /// 将 cell 的高度通知给 tableView
+    ///
+    /// - Parameters:
+    ///   - height: cell 的高度
+    ///   - tag: cell 在 tableView 的位置
     func cell(height: Int, withTag tag: Int)
 }
 
 class WKWebViewCell: UITableViewCell, WKNavigationDelegate, UIWebViewDelegate {
     
-    let HTML_HEAD = "<!DOCTYPE HTML><html><head><title>Math</title><meta charset='utf-8'/><meta name='viewport' content='width=device-width, initial-scale=1'/><style>body{margin:0px;border:0px}</style></head><body id='bqteam-math-body'>"
+    let HTML_HEAD = "<!DOCTYPE HTML><html><head><title>test</title><meta charset='utf-8'/><meta name='viewport' content='width=device-width, initial-scale=1'/><style>body{margin:0px;border:0px}</style></head><body id='test-body'>"
     let HTML_FOOT = "</body></html>"
     let IMAGE = "<img src='https://gold-cdn.xitu.io/v3/static/img/logo.a7995ad.svg'>"
 
@@ -77,7 +83,7 @@ class WKWebViewCell: UITableViewCell, WKNavigationDelegate, UIWebViewDelegate {
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
-        let height = webView.stringByEvaluatingJavaScript(from: "document.getElementById('bqteam-math-body').offsetHeight;")
+        let height = webView.stringByEvaluatingJavaScript(from: "document.getElementById('test-body').offsetHeight;")
         var h = (height == "") ? 0 : Int(height!)!
         h = h + 20
         if (h != self.cellHeight) {

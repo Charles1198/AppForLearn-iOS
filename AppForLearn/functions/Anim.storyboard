@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AnimUI ViewVC-->
+        <scene sceneID="ave-mV-SY7">
+            <objects>
+                <viewController storyboardIdentifier="uiview" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kd2-7x-Dij" customClass="AnimUIViewVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1jQ-PA-nQs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TiA-IW-hgd">
+                                <rect key="frame" x="15" y="140" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26797928160000001" green="0.46672411149999998" blue="0.86744855489999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nj7-30-Gak">
+                                <rect key="frame" x="297" y="329" width="62" height="30"/>
+                                <state key="normal" title="执行动画"/>
+                                <connections>
+                                    <action selector="executeAnim:" destination="kd2-7x-Dij" eventType="touchUpInside" id="0zG-8l-6lP"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wsn-dy-yui">
+                                <rect key="frame" x="0.0" y="367" width="375" height="300"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.92549019610000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="PMb-hv-rEX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wsn-dy-yui" firstAttribute="trailing" secondItem="bm2-Xg-egn" secondAttribute="trailing" id="Owh-bq-R9U"/>
+                            <constraint firstItem="Wsn-dy-yui" firstAttribute="leading" secondItem="bm2-Xg-egn" secondAttribute="leading" id="Umv-vf-cni"/>
+                            <constraint firstItem="Wsn-dy-yui" firstAttribute="bottom" secondItem="bm2-Xg-egn" secondAttribute="bottom" id="aKf-g3-eAW"/>
+                            <constraint firstItem="Wsn-dy-yui" firstAttribute="top" secondItem="nj7-30-Gak" secondAttribute="bottom" constant="8" id="dvo-DX-UW8"/>
+                            <constraint firstItem="bm2-Xg-egn" firstAttribute="trailing" secondItem="nj7-30-Gak" secondAttribute="trailing" constant="16" id="mDN-Nk-O7V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bm2-Xg-egn"/>
+                    </view>
+                    <connections>
+                        <outlet property="animView" destination="TiA-IW-hgd" id="NrC-6d-KQk"/>
+                        <outlet property="controlViewsParent" destination="Wsn-dy-yui" id="iKo-2x-UWX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IxO-oD-KtJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-394.39999999999998" y="-271.21439280359823"/>
+        </scene>
+    </scenes>
+</document>

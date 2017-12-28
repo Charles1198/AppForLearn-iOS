@@ -12,11 +12,14 @@ class RootVC: UITableViewController {
    
     @IBOutlet var rootTableView: UITableView!
     
-    let headTitles = ["iOS基础", "第三方库"]
+    let headTitles = ["iOS基础", "第三方库", "动画"]
     let cellTitlesOriginalFunction = ["推送通知", "地图", "WKWebView 与 UITableView", "传感器"]
-    let cellTitlesLibraries = ["Lottie 动画"]
+    let cellTitlesLibraries = ["Lottie 动画", "KaTex 与 LaTex 键盘", "iconfont"]
+    let cellTitlesAnim = ["UIView 动画"]
+    
     let identifierOriginalFunction = ["PushNotification", "MapKit", "WKWebVIewAndUITableView", "Sensor"]
-    let identifierLibraries = ["Lottie"]
+    let identifierLibraries = ["Lottie", "KaTex", "iconfont"]
+    let identifierAnim = ["uiview"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +32,7 @@ class RootVC: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return headTitles.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -38,6 +41,8 @@ class RootVC: UITableViewController {
             return cellTitlesOriginalFunction.count
         case 1:
             return cellTitlesLibraries.count
+        case 2:
+            return cellTitlesAnim.count
         default:
             return 0
         }
@@ -51,6 +56,8 @@ class RootVC: UITableViewController {
             cell.textLabel?.text = cellTitlesOriginalFunction[indexPath.row]
         case 1:
             cell.textLabel?.text = cellTitlesLibraries[indexPath.row]
+        case 2:
+            cell.textLabel?.text = cellTitlesAnim[indexPath.row]
         default:
             return cell
         }
@@ -58,13 +65,18 @@ class RootVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let sb = UIStoryboard.init(name: "Main", bundle: nil)
+        var sb = UIStoryboard()
         var vc = UIViewController()
         switch indexPath.section {
         case 0:
+            sb = UIStoryboard.init(name: "Main", bundle: nil)
             vc = sb.instantiateViewController(withIdentifier: identifierOriginalFunction[indexPath.row])
         case 1:
+            sb = UIStoryboard.init(name: "Main", bundle: nil)
             vc = sb.instantiateViewController(withIdentifier: identifierLibraries[indexPath.row])
+        case 2:
+            sb = UIStoryboard.init(name: "Anim", bundle: nil)
+            vc = sb.instantiateViewController(withIdentifier: identifierAnim[indexPath.row])
         default:
             return
         }

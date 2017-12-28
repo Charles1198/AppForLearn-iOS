@@ -38,7 +38,7 @@ class WKWebVIewAndUITableViewVC: UIViewController, UITableViewDelegate, UITableV
         "<span>考研复习，首先大家必须要了解自己的考试科目，区分考试难度，考研数学分数学一、数学二和数学三，下面分析三者的不同，大家先了解后规划。考研复习，首先大家必须要了解自己的考试科目，区分考试难度，考研数学分数学一、数学二和数学三，下面分析三者的不同，大家先了解后规划。</span>"
     ]
     
-    var cellHeightArray = [60, 60, 60, 60,60, 60, 60, 60,60, 60, 60, 60,60, 60, 60, 60,60, 60, 60, 60]
+    var cellHeightArray = [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60]
     
     override func viewDidLoad() {
         super.viewDidLoad()

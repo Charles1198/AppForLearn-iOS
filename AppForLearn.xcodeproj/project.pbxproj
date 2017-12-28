@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561AFDE71FF4D6160060614A /* IconfontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561AFDE61FF4D6160060614A /* IconfontVC.swift */; };
+		561AFDE91FF4D6660060614A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 561AFDE81FF4D6660060614A /* iconfont.ttf */; };
 		56380B9A1FBE806400124F0A /* WKWebVIewAndUITableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56380B991FBE806400124F0A /* WKWebVIewAndUITableViewVC.swift */; };
 		56380B9C1FBE80B900124F0A /* WKWebViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56380B9B1FBE80B900124F0A /* WKWebViewCell.swift */; };
 		56380B9F1FBED3DC00124F0A /* Pods_AppForLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56380BA01FBED3DC00124F0A /* Pods_AppForLearn.framework */; };
 		563FCDC61F73DEFD00D6854B /* PushHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FCDC51F73DEFD00D6854B /* PushHandler.swift */; };
 		563FCDCB1F749FDE00D6854B /* LottieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FCDCA1F749FDE00D6854B /* LottieVC.swift */; };
 		563FCDD11F74AEAB00D6854B /* heartParticles.json in Sources */ = {isa = PBXBuildFile; fileRef = 563FCDD01F74A10C00D6854B /* heartParticles.json */; };
+		566545241FEB4AE200185408 /* BallGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566545231FEB4AE200185408 /* BallGameVC.swift */; };
+		567CC03E1FEE8BAE009E4067 /* AnimUIViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CC03D1FEE8BAE009E4067 /* AnimUIViewVC.swift */; };
+		567CC0401FEE8BC1009E4067 /* Anim.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567CC03F1FEE8BC1009E4067 /* Anim.storyboard */; };
 		567EB05B1F738BBA000ED92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567EB05A1F738BBA000ED92E /* AppDelegate.swift */; };
 		567EB05D1F738BBA000ED92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567EB05C1F738BBA000ED92E /* ViewController.swift */; };
 		567EB0601F738BBA000ED92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567EB05E1F738BBA000ED92E /* Main.storyboard */; };
@@ -27,6 +32,7 @@
 		56CD82281FC414A8006CA0FE /* transition_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 56CD82261FC4149D006CA0FE /* transition_1.json */; };
 		56CD82291FC414AB006CA0FE /* transition_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 56CD82271FC414A1006CA0FE /* transition_2.json */; };
 		56CD822C1FC41ED5006CA0FE /* SensorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD822B1FC41ED5006CA0FE /* SensorVC.swift */; };
+		56D0AA8A1FCA540C000D7FA3 /* KaTexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0AA891FCA540C000D7FA3 /* KaTexVC.swift */; };
 		56EAA2B11F7A8D6B00095D17 /* MapKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAA2B01F7A8D6B00095D17 /* MapKitVC.swift */; };
 		56EAA2B31F7B382900095D17 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EAA2B21F7B382900095D17 /* MapKit.framework */; };
 		85A6FC205FE5E662AEA7CAC9 /* Pods_AppForLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484FB4F0CBFDE29993A648E /* Pods_AppForLearnTests.framework */; };
@@ -55,6 +61,8 @@
 		2484FB4F0CBFDE29993A648E /* Pods_AppForLearnTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppForLearnTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD99A5C0B0FBEDC74B29D2E /* Pods_AppForLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppForLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		495862729D72930B627CC811 /* Pods-AppForLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppForLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppForLearn/Pods-AppForLearn.release.xcconfig"; sourceTree = "<group>"; };
+		561AFDE61FF4D6160060614A /* IconfontVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconfontVC.swift; sourceTree = "<group>"; };
+		561AFDE81FF4D6660060614A /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		56380B991FBE806400124F0A /* WKWebVIewAndUITableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebVIewAndUITableViewVC.swift; sourceTree = "<group>"; };
 		56380B9B1FBE80B900124F0A /* WKWebViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewCell.swift; sourceTree = "<group>"; };
 		56380B9E1FBED3D000124F0A /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +71,9 @@
 		563FCDC51F73DEFD00D6854B /* PushHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushHandler.swift; sourceTree = "<group>"; };
 		563FCDCA1F749FDE00D6854B /* LottieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieVC.swift; sourceTree = "<group>"; };
 		563FCDD01F74A10C00D6854B /* heartParticles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = heartParticles.json; sourceTree = "<group>"; };
+		566545231FEB4AE200185408 /* BallGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallGameVC.swift; sourceTree = "<group>"; };
+		567CC03D1FEE8BAE009E4067 /* AnimUIViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimUIViewVC.swift; sourceTree = "<group>"; };
+		567CC03F1FEE8BC1009E4067 /* Anim.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Anim.storyboard; sourceTree = "<group>"; };
 		567EB0571F738BBA000ED92E /* AppForLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppForLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		567EB05A1F738BBA000ED92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		567EB05C1F738BBA000ED92E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +94,7 @@
 		56CD82261FC4149D006CA0FE /* transition_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transition_1.json; sourceTree = "<group>"; };
 		56CD82271FC414A1006CA0FE /* transition_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transition_2.json; sourceTree = "<group>"; };
 		56CD822B1FC41ED5006CA0FE /* SensorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorVC.swift; sourceTree = "<group>"; };
+		56D0AA891FCA540C000D7FA3 /* KaTexVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaTexVC.swift; sourceTree = "<group>"; };
 		56EAA2B01F7A8D6B00095D17 /* MapKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitVC.swift; sourceTree = "<group>"; };
 		56EAA2B21F7B382900095D17 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6E5B5D7370126F0EA0281421 /* Pods_AppForLearnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppForLearnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +144,14 @@
 				0A1B731E4AFCEEC791FDE7FC /* Pods-AppForLearnUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		561AFDE41FF4D50F0060614A /* iconfont */ = {
+			isa = PBXGroup;
+			children = (
+				561AFDE61FF4D6160060614A /* IconfontVC.swift */,
+			);
+			name = iconfont;
 			sourceTree = "<group>";
 		};
 		56380B981FBE801400124F0A /* wk */ = {
@@ -186,6 +206,15 @@
 				56CD82241FC40E42006CA0FE /* AnimationVC.swift */,
 			);
 			name = lottie;
+			sourceTree = "<group>";
+		};
+		567CC03C1FEE8ADB009E4067 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				567CC03F1FEE8BC1009E4067 /* Anim.storyboard */,
+				567CC03D1FEE8BAE009E4067 /* AnimUIViewVC.swift */,
+			);
+			name = animation;
 			sourceTree = "<group>";
 		};
 		567EB04E1F738BBA000ED92E = {
@@ -246,6 +275,9 @@
 		567EB08D1F739189000ED92E /* functions */ = {
 			isa = PBXGroup;
 			children = (
+				561AFDE41FF4D50F0060614A /* iconfont */,
+				567CC03C1FEE8ADB009E4067 /* animation */,
+				56D0AA881FCA53E6000D7FA3 /* KaTex */,
 				56CD822A1FC41E1E006CA0FE /* sensor */,
 				565554771FBE7CFA006BB6BB /* lottie */,
 				565554761FBE7CEC006BB6BB /* map */,
@@ -258,6 +290,7 @@
 		567EB0911F739387000ED92E /* other */ = {
 			isa = PBXGroup;
 			children = (
+				561AFDE81FF4D6660060614A /* iconfont.ttf */,
 				567EB0611F738BBA000ED92E /* Assets.xcassets */,
 				567EB0661F738BBA000ED92E /* Info.plist */,
 				567EB0631F738BBA000ED92E /* LaunchScreen.storyboard */,
@@ -269,8 +302,17 @@
 			isa = PBXGroup;
 			children = (
 				56CD822B1FC41ED5006CA0FE /* SensorVC.swift */,
+				566545231FEB4AE200185408 /* BallGameVC.swift */,
 			);
 			name = sensor;
+			sourceTree = "<group>";
+		};
+		56D0AA881FCA53E6000D7FA3 /* KaTex */ = {
+			isa = PBXGroup;
+			children = (
+				56D0AA891FCA540C000D7FA3 /* KaTexVC.swift */,
+			);
+			name = KaTex;
 			sourceTree = "<group>";
 		};
 		F7D7CCC154A9EEF59A320C9F /* Frameworks */ = {
@@ -410,12 +452,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561AFDE91FF4D6660060614A /* iconfont.ttf in Resources */,
 				56CD82231FC407E0006CA0FE /* favourite_app_icon.json in Resources */,
 				56CD82291FC414AB006CA0FE /* transition_2.json in Resources */,
 				567EB0651F738BBA000ED92E /* LaunchScreen.storyboard in Resources */,
 				567EB0621F738BBA000ED92E /* Assets.xcassets in Resources */,
 				56CD82281FC414A8006CA0FE /* transition_1.json in Resources */,
 				567EB0601F738BBA000ED92E /* Main.storyboard in Resources */,
+				567CC0401FEE8BC1009E4067 /* Anim.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,7 +623,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56CD822C1FC41ED5006CA0FE /* SensorVC.swift in Sources */,
+				56D0AA8A1FCA540C000D7FA3 /* KaTexVC.swift in Sources */,
 				56EAA2B11F7A8D6B00095D17 /* MapKitVC.swift in Sources */,
+				566545241FEB4AE200185408 /* BallGameVC.swift in Sources */,
+				561AFDE71FF4D6160060614A /* IconfontVC.swift in Sources */,
 				563FCDD11F74AEAB00D6854B /* heartParticles.json in Sources */,
 				56CD82251FC40E42006CA0FE /* AnimationVC.swift in Sources */,
 				567EB05D1F738BBA000ED92E /* ViewController.swift in Sources */,
@@ -589,6 +636,7 @@
 				563FCDCB1F749FDE00D6854B /* LottieVC.swift in Sources */,
 				567EB0901F739220000ED92E /* PushNotificationVC.swift in Sources */,
 				563FCDC61F73DEFD00D6854B /* PushHandler.swift in Sources */,
+				567CC03E1FEE8BAE009E4067 /* AnimUIViewVC.swift in Sources */,
 				56380B9A1FBE806400124F0A /* WKWebVIewAndUITableViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -692,7 +740,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -743,7 +791,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -760,6 +808,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AQNWSW5BPB;
 				INFOPLIST_FILE = AppForLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuyin.AppForLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -778,6 +827,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AQNWSW5BPB;
 				INFOPLIST_FILE = AppForLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuyin.AppForLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
