@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -321,6 +322,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CDW-yf-fTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4274" y="811"/>
+        </scene>
+        <!--BlurVC-->
+        <scene sceneID="JH6-XN-JlE">
+            <objects>
+                <viewController storyboardIdentifier="blur" useStoryboardIdentifierAsRestorationIdentifier="YES" id="J1D-D2-CZv" customClass="BlurVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7u2-ya-Pj6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="dsM-Uu-Ghb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kju-KC-kMT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4924" y="812"/>
+        </scene>
+        <!--Moving PointVC-->
+        <scene sceneID="hX0-01-YSW">
+            <objects>
+                <viewController storyboardIdentifier="movingPoint" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Q9H-XK-mE4" customClass="MovingPointVC" customModule="AppForLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j34-8T-AwW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="YJS-YN-EHr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfh-jy-G6e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5574" y="812"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WdS-sL-YmP">

@@ -27,12 +27,17 @@
 		567EB07B1F738BBA000ED92E /* AppForLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567EB07A1F738BBA000ED92E /* AppForLearnUITests.swift */; };
 		567EB08C1F738EC7000ED92E /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567EB08B1F738EC7000ED92E /* RootVC.swift */; };
 		567EB0901F739220000ED92E /* PushNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567EB08F1F739220000ED92E /* PushNotificationVC.swift */; };
+		5696D8E620062F32003924CC /* MovingPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696D8E520062F32003924CC /* MovingPointView.swift */; };
+		5696D8E820062F64003924CC /* MovingPointVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696D8E720062F64003924CC /* MovingPointVC.swift */; };
+		5696D8EA20063065003924CC /* MovingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696D8E920063065003924CC /* MovingPoint.swift */; };
 		56CD82231FC407E0006CA0FE /* favourite_app_icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 56CD82221FC407CB006CA0FE /* favourite_app_icon.json */; };
 		56CD82251FC40E42006CA0FE /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD82241FC40E42006CA0FE /* AnimationVC.swift */; };
 		56CD82281FC414A8006CA0FE /* transition_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 56CD82261FC4149D006CA0FE /* transition_1.json */; };
 		56CD82291FC414AB006CA0FE /* transition_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 56CD82271FC414A1006CA0FE /* transition_2.json */; };
 		56CD822C1FC41ED5006CA0FE /* SensorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD822B1FC41ED5006CA0FE /* SensorVC.swift */; };
 		56D0AA8A1FCA540C000D7FA3 /* KaTexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0AA891FCA540C000D7FA3 /* KaTexVC.swift */; };
+		56D2ED791FF5F65E006C480C /* BlurVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D2ED781FF5F65E006C480C /* BlurVC.swift */; };
+		56D2ED7E1FF613B9006C480C /* shan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D2ED7D1FF613B9006C480C /* shan@2x.png */; };
 		56EAA2B11F7A8D6B00095D17 /* MapKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAA2B01F7A8D6B00095D17 /* MapKitVC.swift */; };
 		56EAA2B31F7B382900095D17 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EAA2B21F7B382900095D17 /* MapKit.framework */; };
 		85A6FC205FE5E662AEA7CAC9 /* Pods_AppForLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484FB4F0CBFDE29993A648E /* Pods_AppForLearnTests.framework */; };
@@ -89,12 +94,17 @@
 		567EB07C1F738BBA000ED92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		567EB08B1F738EC7000ED92E /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		567EB08F1F739220000ED92E /* PushNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationVC.swift; sourceTree = "<group>"; };
+		5696D8E520062F32003924CC /* MovingPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingPointView.swift; sourceTree = "<group>"; };
+		5696D8E720062F64003924CC /* MovingPointVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingPointVC.swift; sourceTree = "<group>"; };
+		5696D8E920063065003924CC /* MovingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingPoint.swift; sourceTree = "<group>"; };
 		56CD82221FC407CB006CA0FE /* favourite_app_icon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = favourite_app_icon.json; sourceTree = "<group>"; };
 		56CD82241FC40E42006CA0FE /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
 		56CD82261FC4149D006CA0FE /* transition_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transition_1.json; sourceTree = "<group>"; };
 		56CD82271FC414A1006CA0FE /* transition_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transition_2.json; sourceTree = "<group>"; };
 		56CD822B1FC41ED5006CA0FE /* SensorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorVC.swift; sourceTree = "<group>"; };
 		56D0AA891FCA540C000D7FA3 /* KaTexVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaTexVC.swift; sourceTree = "<group>"; };
+		56D2ED781FF5F65E006C480C /* BlurVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurVC.swift; sourceTree = "<group>"; };
+		56D2ED7D1FF613B9006C480C /* shan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shan@2x.png"; sourceTree = "<group>"; };
 		56EAA2B01F7A8D6B00095D17 /* MapKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitVC.swift; sourceTree = "<group>"; };
 		56EAA2B21F7B382900095D17 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6E5B5D7370126F0EA0281421 /* Pods_AppForLearnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppForLearnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +176,7 @@
 		563FCDCD1F74A0C900D6854B /* res */ = {
 			isa = PBXGroup;
 			children = (
+				56D2ED7A1FF61036006C480C /* image */,
 				563FCDCF1F74A0E600D6854B /* lottieRes */,
 			);
 			path = res;
@@ -275,6 +286,8 @@
 		567EB08D1F739189000ED92E /* functions */ = {
 			isa = PBXGroup;
 			children = (
+				5696D8E420062ECB003924CC /* canvas */,
+				56D2ED771FF5F53B006C480C /* blur */,
 				561AFDE41FF4D50F0060614A /* iconfont */,
 				567CC03C1FEE8ADB009E4067 /* animation */,
 				56D0AA881FCA53E6000D7FA3 /* KaTex */,
@@ -298,6 +311,16 @@
 			name = other;
 			sourceTree = "<group>";
 		};
+		5696D8E420062ECB003924CC /* canvas */ = {
+			isa = PBXGroup;
+			children = (
+				5696D8E520062F32003924CC /* MovingPointView.swift */,
+				5696D8E720062F64003924CC /* MovingPointVC.swift */,
+				5696D8E920063065003924CC /* MovingPoint.swift */,
+			);
+			name = canvas;
+			sourceTree = "<group>";
+		};
 		56CD822A1FC41E1E006CA0FE /* sensor */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +336,22 @@
 				56D0AA891FCA540C000D7FA3 /* KaTexVC.swift */,
 			);
 			name = KaTex;
+			sourceTree = "<group>";
+		};
+		56D2ED771FF5F53B006C480C /* blur */ = {
+			isa = PBXGroup;
+			children = (
+				56D2ED781FF5F65E006C480C /* BlurVC.swift */,
+			);
+			name = blur;
+			sourceTree = "<group>";
+		};
+		56D2ED7A1FF61036006C480C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				56D2ED7D1FF613B9006C480C /* shan@2x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 		F7D7CCC154A9EEF59A320C9F /* Frameworks */ = {
@@ -454,6 +493,7 @@
 			files = (
 				561AFDE91FF4D6660060614A /* iconfont.ttf in Resources */,
 				56CD82231FC407E0006CA0FE /* favourite_app_icon.json in Resources */,
+				56D2ED7E1FF613B9006C480C /* shan@2x.png in Resources */,
 				56CD82291FC414AB006CA0FE /* transition_2.json in Resources */,
 				567EB0651F738BBA000ED92E /* LaunchScreen.storyboard in Resources */,
 				567EB0621F738BBA000ED92E /* Assets.xcassets in Resources */,
@@ -624,7 +664,9 @@
 			files = (
 				56CD822C1FC41ED5006CA0FE /* SensorVC.swift in Sources */,
 				56D0AA8A1FCA540C000D7FA3 /* KaTexVC.swift in Sources */,
+				5696D8EA20063065003924CC /* MovingPoint.swift in Sources */,
 				56EAA2B11F7A8D6B00095D17 /* MapKitVC.swift in Sources */,
+				5696D8E620062F32003924CC /* MovingPointView.swift in Sources */,
 				566545241FEB4AE200185408 /* BallGameVC.swift in Sources */,
 				561AFDE71FF4D6160060614A /* IconfontVC.swift in Sources */,
 				563FCDD11F74AEAB00D6854B /* heartParticles.json in Sources */,
@@ -634,10 +676,12 @@
 				567EB05B1F738BBA000ED92E /* AppDelegate.swift in Sources */,
 				56380B9C1FBE80B900124F0A /* WKWebViewCell.swift in Sources */,
 				563FCDCB1F749FDE00D6854B /* LottieVC.swift in Sources */,
+				5696D8E820062F64003924CC /* MovingPointVC.swift in Sources */,
 				567EB0901F739220000ED92E /* PushNotificationVC.swift in Sources */,
 				563FCDC61F73DEFD00D6854B /* PushHandler.swift in Sources */,
 				567CC03E1FEE8BAE009E4067 /* AnimUIViewVC.swift in Sources */,
 				56380B9A1FBE806400124F0A /* WKWebVIewAndUITableViewVC.swift in Sources */,
+				56D2ED791FF5F65E006C480C /* BlurVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

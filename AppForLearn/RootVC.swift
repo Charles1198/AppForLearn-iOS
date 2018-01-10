@@ -13,11 +13,11 @@ class RootVC: UITableViewController {
     @IBOutlet var rootTableView: UITableView!
     
     let headTitles = ["iOS基础", "第三方库", "动画"]
-    let cellTitlesOriginalFunction = ["推送通知", "地图", "WKWebView 与 UITableView", "传感器"]
+    let cellTitlesOriginalFunction = ["推送通知", "地图", "WKWebView 与 UITableView", "传感器", "模糊效果", "绘图"]
     let cellTitlesLibraries = ["Lottie 动画", "KaTex 与 LaTex 键盘", "iconfont"]
     let cellTitlesAnim = ["UIView 动画"]
     
-    let identifierOriginalFunction = ["PushNotification", "MapKit", "WKWebVIewAndUITableView", "Sensor"]
+    let identifierOriginalFunction = ["PushNotification", "MapKit", "WKWebVIewAndUITableView", "Sensor", "blur", "movingPoint"]
     let identifierLibraries = ["Lottie", "KaTex", "iconfont"]
     let identifierAnim = ["uiview"]
     
